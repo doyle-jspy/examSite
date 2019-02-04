@@ -1,0 +1,24 @@
+{
+  "name": "anyjam",
+  "version": "1.0.0",
+  "description": "anyjam",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "helmet": "^3.15.0",
+    "html-parser": "^0.11.0",
+    "mysql": "^2.16.0",
+    "node-html-parser": "^1.1.12",
+    "path": "^0.12.7"
+  }
+}
